@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BCD34F1466F4209D5768580FBDB49E3ED5E7EC4E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5A29B29B9B8CFBCA28F072170B70F021754525D7" : 9223372036854775807,
+    "BCD34F1466F4209D5768580FBDB49E3ED5E7EC4E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "414A15E9-EDC8-438B-B077-FD95FD1039EE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5A29B29B9B8CFBCA28F072170B70F021754525D7" : "",
+    "BCD34F1466F4209D5768580FBDB49E3ED5E7EC4E" : "BoiledEggs\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BoiledEggs",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BoiledEggs\/BoiledEggs.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Uskinn\/Uber-SplashScreen-Tutorial.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5A29B29B9B8CFBCA28F072170B70F021754525D7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Uskinn\/BoiledEggs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BCD34F1466F4209D5768580FBDB49E3ED5E7EC4E"
+    }
+  ]
+}
