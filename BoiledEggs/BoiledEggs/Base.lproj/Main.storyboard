@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="uzl-xB-AmF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Eggs-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BoiledEggs" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +18,134 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="202" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zdj-Rh-g2j">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="202" id="MxV-YH-NgK" customClass="EggTableViewCell" customModule="BoiledEggs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="375" height="202"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MxV-YH-NgK" id="T1X-XW-Lw2">
+                                            <frame key="frameInset" width="375" height="201"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJf-1w-Jij">
+                                                    <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="39"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="vJf-1w-Jij" firstAttribute="leading" secondItem="T1X-XW-Lw2" secondAttribute="leadingMargin" id="e0N-ud-rYP"/>
+                                                <constraint firstItem="vJf-1w-Jij" firstAttribute="trailing" secondItem="T1X-XW-Lw2" secondAttribute="trailingMargin" id="g0v-aw-2Bh"/>
+                                                <constraint firstItem="vJf-1w-Jij" firstAttribute="top" secondItem="T1X-XW-Lw2" secondAttribute="topMargin" constant="45" id="wyw-hd-sd7"/>
+                                                <constraint firstItem="vJf-1w-Jij" firstAttribute="centerY" secondItem="T1X-XW-Lw2" secondAttribute="centerY" constant="-2.5" id="y6J-HZ-knf"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="eggLabel" destination="vJf-1w-Jij" id="Ju4-hU-D14"/>
+                                            <segue destination="u3O-JS-byQ" kind="show" id="Mu7-4L-MNM"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="CVd-nq-9mA"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="iov-qv-ULJ"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zdj-Rh-g2j" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-64" id="IH3-nR-ikp"/>
+                            <constraint firstItem="zdj-Rh-g2j" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="UPd-Bl-btR"/>
+                            <constraint firstItem="zdj-Rh-g2j" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="aA1-et-0Dt"/>
+                            <constraint firstAttribute="trailing" secondItem="zdj-Rh-g2j" secondAttribute="trailing" id="uFI-VL-ZdV"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Eggs" id="A9V-tq-icm"/>
+                    <connections>
+                        <outlet property="tableView" destination="zdj-Rh-g2j" id="jg8-yN-BgQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1148" y="29.23538230884558"/>
+        </scene>
+        <!--Type View Controller-->
+        <scene sceneID="ov6-Qj-hcH">
+            <objects>
+                <viewController id="u3O-JS-byQ" customClass="TypeViewController" customModule="BoiledEggs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GOD-YN-mbU"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zzd-8T-ViF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="63N-gh-cy8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="201" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NRQ-YP-eEY">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="typeCell" rowHeight="202" id="lPq-vs-D7j" customClass="TypeTableViewCell" customModule="BoiledEggs" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="92" width="375" height="202"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lPq-vs-D7j" id="grH-8L-btH">
+                                            <frame key="frameInset" width="375" height="201"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXX-TY-SvM">
+                                                    <frame key="frameInset" minX="8" minY="53" width="359" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="typeLabel" destination="OXX-TY-SvM" id="cia-ET-Ud5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="u3O-JS-byQ" id="zzK-Sp-9WQ"/>
+                                    <outlet property="delegate" destination="u3O-JS-byQ" id="Isu-HP-ufz"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="NRQ-YP-eEY" firstAttribute="bottom" secondItem="Zzd-8T-ViF" secondAttribute="top" id="Daq-07-JZb"/>
+                            <constraint firstAttribute="trailing" secondItem="NRQ-YP-eEY" secondAttribute="trailing" id="QrT-Le-1pd"/>
+                            <constraint firstItem="NRQ-YP-eEY" firstAttribute="leading" secondItem="63N-gh-cy8" secondAttribute="leading" id="hzK-3m-rFl"/>
+                            <constraint firstItem="NRQ-YP-eEY" firstAttribute="top" secondItem="63N-gh-cy8" secondAttribute="top" id="pOT-NP-dUK"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="NRQ-YP-eEY" id="p03-QR-iYE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bcf-IW-bPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1909.5999999999999" y="28.335832083958024"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="u3k-R3-US3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uzl-xB-AmF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zHf-V1-7nt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="lpZ-yh-MIW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="54q-CG-TwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="208.80000000000001" y="29.23538230884558"/>
         </scene>
     </scenes>
 </document>
