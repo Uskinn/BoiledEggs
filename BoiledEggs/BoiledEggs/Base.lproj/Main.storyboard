@@ -44,7 +44,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="eggLabel" destination="vJf-1w-Jij" id="Ju4-hU-D14"/>
-                                            <segue destination="u3O-JS-byQ" kind="show" id="Mu7-4L-MNM"/>
+                                            <segue destination="u3O-JS-byQ" kind="show" identifier="type" id="Mu7-4L-MNM"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -127,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcf-IW-bPH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1909.5999999999999" y="28.335832083958024"/>
+            <point key="canvasLocation" x="2052" y="29"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="u3k-R3-US3">

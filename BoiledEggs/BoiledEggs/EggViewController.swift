@@ -8,14 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let eggNames = ["Large", "Extra Large", "Jumbo"]
+    let dataProvider: TableViewDataProvider = TableViewDataProvider()
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        dataProvider.cellIdentifier = "cell"
+        let model: [EggSize] = [.large, .extraLarge, .jumbo]
+        dataProvider.model = model
+        tableView.dataSource = dataProvider
         
         self.navigationController?.navigationBar.barTintColor = .orange
     }
@@ -24,24 +31,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.didReceiveMemoryWarning()
     }
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EggTableViewCell
-        
-        cell.textLabel?.font = UIFont(name: "Papyrus", size: 52)
-        cell.backgroundColor = .yellow
-        cell.textLabel?.text = eggNames[indexPath.row]
-        
-        return cell
-        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destinationVC = segue.destination as! TypeViewController
+        let cell = sender as! EggTableViewCell
+        destinationVC.navigationItem.title = cell.eggLabel.text
     }
 }
-

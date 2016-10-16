@@ -17,7 +17,6 @@ class TypeViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         
         
-        
                 }
 
     override func didReceiveMemoryWarning() {
@@ -37,10 +36,10 @@ class TypeViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "typeCell", for: indexPath) as! TypeTableViewCell
         
-        cell.backgroundColor = .green
         cell.textLabel?.font = UIFont(name: "Papyrus", size: 52)
         cell.textLabel?.text = boilType[indexPath.row]
         return cell
     }
- 
+    
+     
 }
