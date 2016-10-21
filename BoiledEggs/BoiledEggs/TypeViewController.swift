@@ -8,38 +8,23 @@
 
 import UIKit
 
-class TypeViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TypeViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     let boilType = ["Soft", "Medium", "Hard"]
-
+    let dataProvider: TableViewDataProvider = TableViewDataProvider()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-                }
-
+        dataProvider.cellIdentifier = "typeCell"
+        let model: [BoiledType] = [.soft, .medium, .hard]
+        dataProvider.model = model
+        tableView.dataSource = dataProvider
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "typeCell", for: indexPath) as! TypeTableViewCell
-        
-        cell.textLabel?.font = UIFont(name: "Papyrus", size: 52)
-        cell.textLabel?.text = boilType[indexPath.row]
-        return cell
-    }
-    
-     
 }
