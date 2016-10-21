@@ -8,5 +8,6 @@ target 'BoiledEggs' do
   # Pods for BoiledEggs
 
 pod 'MARoundButton'
+pod 'LTMorphingLabel'
 
 end

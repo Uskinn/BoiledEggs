@@ -7,17 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09B74400B70ACA27D7117DC2A90F03D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		426E3480852F8316526BADF0D17B7959 /* Pods-BoiledEggs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F40BA9D5C772A260E4A0524C46C93EE /* Pods-BoiledEggs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EC4EFE796C46E9A6FC7A397A19C0E4D /* MARoundButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850C26489F2D1177BCD4408A1D2B88E6 /* MARoundButton-dummy.m */; };
-		640E8CFAC0C521D5952A46746C3DDF85 /* MARoundButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8026C503F71209511C2F1BCC96DE703 /* MARoundButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93F1F3701FFB6A76F8CD60BA577E0CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B682AB588A07E8AC5BB017353BB6D13C /* Pods-BoiledEggs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0E6F9C18DF3A5B358CD534F1F5CDA /* Pods-BoiledEggs-dummy.m */; };
-		DE859B915C365F849CB06A3ECAAD471E /* MARoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62925B4462F23F87A828F14BBE0B964 /* MARoundButton.swift */; };
+		0193EDA135E40CB621E1309BB8024A93 /* Sparkle.png in Resources */ = {isa = PBXBuildFile; fileRef = 633C15DF9F864D54079EB5C3CAC61F37 /* Sparkle.png */; };
+		0CD2524F2BD9AFA2FD300DEE3EE18232 /* LTEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BAB3E7A37538E332AE3D12FF4F32D7 /* LTEmitterView.swift */; };
+		11357AE02FC1FE7071FF249DF24B01F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */; };
+		14631D3D598B00D3F659293B0317A358 /* LTEasing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9D15BB1DFA65CFF039E0C990F468C5 /* LTEasing.swift */; };
+		1F96F8558E7A4994EBDFB0F20170913D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		23054CAD90455D077015A23DD84EEF01 /* LTMorphingLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE13E3547566CE011D05C58A2F0B541 /* LTMorphingLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D30BB5B428DA97E7DAC8CC6D0029851 /* LTMorphingLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BB979B93C19815885075BC7EC6CD45 /* LTMorphingLabel-dummy.m */; };
+		3F07ED106A407C5B1B4FE5F439FA43A6 /* LTMorphingLabel+Evaporate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1A827117B6714C437C19368FE53CA1 /* LTMorphingLabel+Evaporate.swift */; };
+		45F38763795A23551D3D52FB609D24D3 /* Smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E923D20725E57B6058C91203827439D /* Smoke.png */; };
+		4EA7681AACFC8BDC8210C9F3516858AE /* LTCharacterDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73CBC30513691E1F80A9CA761A56624 /* LTCharacterDiffResult.swift */; };
+		4EC4EFE796C46E9A6FC7A397A19C0E4D /* MARoundButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D90BBE109BC3AB1CF7C29CEEE6499AC /* MARoundButton-dummy.m */; };
+		5C85705145BF58E90F35C9674D2CA460 /* Pods-BoiledEggs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0E6F9C18DF3A5B358CD534F1F5CDA /* Pods-BoiledEggs-dummy.m */; };
+		640E8CFAC0C521D5952A46746C3DDF85 /* MARoundButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB225D7DBD61563F5D945C0BC869E9A0 /* MARoundButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6580AF1AB830B395ACBE14A0A843D042 /* LTMorphingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1A7F64FC998E6079D3A85C8AC67702 /* LTMorphingLabel.swift */; };
+		77EABCF161CC76C266D46844DF9D820D /* LTMorphingLabel+Anvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4C1FCA18115CD43F2299CD606E996F /* LTMorphingLabel+Anvil.swift */; };
+		7E4352505367B6A8C683AE16AFEACDE8 /* Fragment.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBD6E06B3F8792154F15F5376C6F1FB /* Fragment.png */; };
+		8301B71DD16F563BA67206B98D43A043 /* LTMorphingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B054F9DE89A606E0C564BDF1AF49D028 /* LTMorphingLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F1F3701FFB6A76F8CD60BA577E0CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		941DE6C949CEC058FB67DF9E9AAE635C /* LTCharacterLimbo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E391438C25DB6342558852A7B1FCB2F4 /* LTCharacterLimbo.swift */; };
+		942D48D4CEF34BC5096E39420F18B1DB /* Fire.png in Resources */ = {isa = PBXBuildFile; fileRef = A9DA051B4F20E534B576057D20782345 /* Fire.png */; };
+		94BC299B8F9B0F31152B36B1D8917F93 /* LTMorphingLabel+Sparkle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A3E4E6DAEEC90485D1FB2A6B4F8FED /* LTMorphingLabel+Sparkle.swift */; };
+		A5EFEE9D20BD555B6E2D462E95B05DD5 /* LTStringDiffResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053A2535471C7384C81877B306F565C7 /* LTStringDiffResult.swift */; };
+		B53EA3BE2BC590F0910FA09CA8BC3EED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */; };
+		B6724501E4B12A8B5E370ECD51E14059 /* LTMorphingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A6F42E6EAD3E2872C2481E7D3E165E /* LTMorphingEffect.swift */; };
+		B82CA6869B7AD1DC84CA41DC4A2BAB75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */; };
+		CD67A28565AFBBCD8C3839A6949C925C /* LTMorphingLabel+Burn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55056A376747110F35F42A56D1C0399 /* LTMorphingLabel+Burn.swift */; };
+		DE859B915C365F849CB06A3ECAAD471E /* MARoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496FE8D6ABC2ECF467A68F3990A19CFA /* MARoundButton.swift */; };
+		EF1B437530C0818DBB357E314C803480 /* LTMorphingLabel+Pixelate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A8CE4456E9F7CDD1C6340285406E4 /* LTMorphingLabel+Pixelate.swift */; };
+		F8ADE2FC7E708039FAAF340C7CA4A496 /* Pods-BoiledEggs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F40BA9D5C772A260E4A0524C46C93EE /* Pods-BoiledEggs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBF63520DEBF34F12CEB15C5D5B6DAA7 /* LTMorphingLabel+Fall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92053914AF7F705CB82485FA86C413D9 /* LTMorphingLabel+Fall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7F0B039FDBB8D8D467379BEB34063B2F /* PBXContainerItemProxy */ = {
+		57B8612C588EEEF4D121857900A12127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C900E8E2449EBBCC12128A9BDA69E7F;
+			remoteInfo = LTMorphingLabel;
+		};
+		8D4ED9CF9A4D89DBC518D70C5BD22F3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -27,35 +57,72 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001A8CE4456E9F7CDD1C6340285406E4 /* LTMorphingLabel+Pixelate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Pixelate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Pixelate.swift"; sourceTree = "<group>"; };
+		0268D7DC79343617AD33D10B6C6D8BEC /* Pods_BoiledEggs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoiledEggs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		053A2535471C7384C81877B306F565C7 /* LTStringDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTStringDiffResult.swift; path = LTMorphingLabel/LTStringDiffResult.swift; sourceTree = "<group>"; };
+		091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0C7C06E21599233BF2E51F84DC8448F1 /* MARoundButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-prefix.pch"; sourceTree = "<group>"; };
 		0F5D8BF9734764B5A1E01E354461E183 /* Pods-BoiledEggs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoiledEggs.release.xcconfig"; sourceTree = "<group>"; };
-		26B77BABF81D54DCE83B5F6E99EAC416 /* MARoundButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MARoundButton.modulemap; sourceTree = "<group>"; };
-		3CB96B202D2CF4D7A86090C645E10D54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARoundButton.xcconfig; sourceTree = "<group>"; };
+		23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2347E589F94240C81F1EFEB4098FEA35 /* MARoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARoundButton.xcconfig; sourceTree = "<group>"; };
+		2C9D15BB1DFA65CFF039E0C990F468C5 /* LTEasing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEasing.swift; path = LTMorphingLabel/LTEasing.swift; sourceTree = "<group>"; };
+		3D90BBE109BC3AB1CF7C29CEEE6499AC /* MARoundButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MARoundButton-dummy.m"; sourceTree = "<group>"; };
+		496FE8D6ABC2ECF467A68F3990A19CFA /* MARoundButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MARoundButton.swift; path = MARoundButton/Classes/MARoundButton.swift; sourceTree = "<group>"; };
+		4A98971F22014955534C4FC0EC204FC9 /* LTMorphingLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LTMorphingLabel.xcconfig; sourceTree = "<group>"; };
 		5DF0E6F9C18DF3A5B358CD534F1F5CDA /* Pods-BoiledEggs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoiledEggs-dummy.m"; sourceTree = "<group>"; };
 		6063462B39934D1F0FECCD9540BDA0AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		694C9C5E96D03392AC1AFE16D87F4E47 /* MARoundButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MARoundButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633C15DF9F864D54079EB5C3CAC61F37 /* Sparkle.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Sparkle.png; path = LTMorphingLabel/Particles/Sparkle.png; sourceTree = "<group>"; };
+		64B574DD754DA578FBA3BA90C9053718 /* MARoundButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MARoundButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68BB979B93C19815885075BC7EC6CD45 /* LTMorphingLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LTMorphingLabel-dummy.m"; sourceTree = "<group>"; };
 		6F40BA9D5C772A260E4A0524C46C93EE /* Pods-BoiledEggs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoiledEggs-umbrella.h"; sourceTree = "<group>"; };
 		732BF9D4E1D5D361F2496A1E4BC246DB /* Pods-BoiledEggs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoiledEggs-acknowledgements.plist"; sourceTree = "<group>"; };
-		850C26489F2D1177BCD4408A1D2B88E6 /* MARoundButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MARoundButton-dummy.m"; sourceTree = "<group>"; };
+		87A6F42E6EAD3E2872C2481E7D3E165E /* LTMorphingEffect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingEffect.swift; path = LTMorphingLabel/LTMorphingEffect.swift; sourceTree = "<group>"; };
 		88885B900815459EC90A17689AD3F735 /* Pods-BoiledEggs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoiledEggs-frameworks.sh"; sourceTree = "<group>"; };
+		89BAB3E7A37538E332AE3D12FF4F32D7 /* LTEmitterView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTEmitterView.swift; path = LTMorphingLabel/LTEmitterView.swift; sourceTree = "<group>"; };
+		8BE13E3547566CE011D05C58A2F0B541 /* LTMorphingLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-umbrella.h"; sourceTree = "<group>"; };
 		8E61D2048882EB1E392BB07A1F45F351 /* Pods-BoiledEggs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoiledEggs-resources.sh"; sourceTree = "<group>"; };
-		92EEC033FFC1C50D9E66BD822519802B /* MARoundButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-prefix.pch"; sourceTree = "<group>"; };
+		90A3E4E6DAEEC90485D1FB2A6B4F8FED /* LTMorphingLabel+Sparkle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Sparkle.swift"; path = "LTMorphingLabel/LTMorphingLabel+Sparkle.swift"; sourceTree = "<group>"; };
+		92053914AF7F705CB82485FA86C413D9 /* LTMorphingLabel+Fall.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Fall.swift"; path = "LTMorphingLabel/LTMorphingLabel+Fall.swift"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A0BAE7E8275935A3BA838BAA09421FF /* Pods-BoiledEggs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoiledEggs.debug.xcconfig"; sourceTree = "<group>"; };
-		9D7497D089EC6D3EEE1E8F0BA59C364C /* Pods_BoiledEggs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoiledEggs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8026C503F71209511C2F1BCC96DE703 /* MARoundButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-umbrella.h"; sourceTree = "<group>"; };
+		9C1A7F64FC998E6079D3A85C8AC67702 /* LTMorphingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTMorphingLabel.swift; path = LTMorphingLabel/LTMorphingLabel.swift; sourceTree = "<group>"; };
+		9E923D20725E57B6058C91203827439D /* Smoke.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Smoke.png; path = LTMorphingLabel/Particles/Smoke.png; sourceTree = "<group>"; };
+		9E9BBB7CB85BF5BE66303CCC44344DEC /* LTMorphingLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LTMorphingLabel.modulemap; sourceTree = "<group>"; };
+		A55056A376747110F35F42A56D1C0399 /* LTMorphingLabel+Burn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Burn.swift"; path = "LTMorphingLabel/LTMorphingLabel+Burn.swift"; sourceTree = "<group>"; };
+		A73CBC30513691E1F80A9CA761A56624 /* LTCharacterDiffResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterDiffResult.swift; path = LTMorphingLabel/LTCharacterDiffResult.swift; sourceTree = "<group>"; };
+		A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A9DA051B4F20E534B576057D20782345 /* Fire.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fire.png; path = LTMorphingLabel/Particles/Fire.png; sourceTree = "<group>"; };
+		AD1A827117B6714C437C19368FE53CA1 /* LTMorphingLabel+Evaporate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Evaporate.swift"; path = "LTMorphingLabel/LTMorphingLabel+Evaporate.swift"; sourceTree = "<group>"; };
+		B054F9DE89A606E0C564BDF1AF49D028 /* LTMorphingLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LTMorphingLabel.h; path = LTMorphingLabel/LTMorphingLabel.h; sourceTree = "<group>"; };
+		BE4C1FCA18115CD43F2299CD606E996F /* LTMorphingLabel+Anvil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "LTMorphingLabel+Anvil.swift"; path = "LTMorphingLabel/LTMorphingLabel+Anvil.swift"; sourceTree = "<group>"; };
 		CAD8C754C30DB26A46EFA2A3C63B4301 /* Pods-BoiledEggs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoiledEggs.modulemap"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CB225D7DBD61563F5D945C0BC869E9A0 /* MARoundButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-umbrella.h"; sourceTree = "<group>"; };
 		D1D3F187F2083BDA4A69F0DB5CB426DF /* Pods-BoiledEggs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoiledEggs-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F62925B4462F23F87A828F14BBE0B964 /* MARoundButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MARoundButton.swift; path = MARoundButton/Classes/MARoundButton.swift; sourceTree = "<group>"; };
+		D42A3B82D2852E40BE691C022FAEB95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5428633EE43C519F28E27D0F9EE90CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D67A1758C84F5A27DF53BBA25C1C719D /* LTMorphingLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LTMorphingLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A0B4987006B69F0235F9640C76E1E6 /* LTMorphingLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LTMorphingLabel-prefix.pch"; sourceTree = "<group>"; };
+		E391438C25DB6342558852A7B1FCB2F4 /* LTCharacterLimbo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LTCharacterLimbo.swift; path = LTMorphingLabel/LTCharacterLimbo.swift; sourceTree = "<group>"; };
+		EBBD6E06B3F8792154F15F5376C6F1FB /* Fragment.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Fragment.png; path = LTMorphingLabel/Particles/Fragment.png; sourceTree = "<group>"; };
+		FF64760D8B9517DA0692E4C31505B0C0 /* MARoundButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MARoundButton.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C5BA73288B8F1DF5CE9E8CC3D217CDE /* Frameworks */ = {
+		791A3F9A2CEE4EE09456FC925D7A1595 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09B74400B70ACA27D7117DC2A90F03D3 /* Foundation.framework in Frameworks */,
+				B53EA3BE2BC590F0910FA09CA8BC3EED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FDF3B54E4362F6D018AC08D8E96991E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F96F8558E7A4994EBDFB0F20170913D /* Foundation.framework in Frameworks */,
+				11357AE02FC1FE7071FF249DF24B01F3 /* QuartzCore.framework in Frameworks */,
+				B82CA6869B7AD1DC84CA41DC4A2BAB75 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +137,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17AA3F7D6BBFCE11280BCE8489EE6B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D67A1758C84F5A27DF53BBA25C1C719D /* LTMorphingLabel.framework */,
+				64B574DD754DA578FBA3BA90C9053718 /* MARoundButton.framework */,
+				0268D7DC79343617AD33D10B6C6D8BEC /* Pods_BoiledEggs.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300F6FC8F693ED5866F1C368F928464E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42A3B82D2852E40BE691C022FAEB95D /* Info.plist */,
+				FF64760D8B9517DA0692E4C31505B0C0 /* MARoundButton.modulemap */,
+				2347E589F94240C81F1EFEB4098FEA35 /* MARoundButton.xcconfig */,
+				3D90BBE109BC3AB1CF7C29CEEE6499AC /* MARoundButton-dummy.m */,
+				0C7C06E21599233BF2E51F84DC8448F1 /* MARoundButton-prefix.pch */,
+				CB225D7DBD61563F5D945C0BC869E9A0 /* MARoundButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MARoundButton";
 			sourceTree = "<group>";
 		};
 		4AEF2B326E1EDC8C9A715A8409DBF900 /* Pods-BoiledEggs */ = {
@@ -96,41 +187,44 @@
 			path = "Target Support Files/Pods-BoiledEggs";
 			sourceTree = "<group>";
 		};
+		52ACCF4FDE77E1A2ACB120BD0077BBE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A9DA051B4F20E534B576057D20782345 /* Fire.png */,
+				EBBD6E06B3F8792154F15F5376C6F1FB /* Fragment.png */,
+				9E923D20725E57B6058C91203827439D /* Smoke.png */,
+				633C15DF9F864D54079EB5C3CAC61F37 /* Sparkle.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		57839D69779B46FBD9D82B62EB75EF1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA1F88A49F132F17D28C6AC8512C248E /* LTMorphingLabel */,
+				9925681C0E31953B091565E49A08EE3B /* MARoundButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B34C01695344C0A0E81359CBBC28AF29 /* Pods */,
-				959F365FB4342E997519942A6EC2AD8B /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				57839D69779B46FBD9D82B62EB75EF1C /* Pods */,
+				17AA3F7D6BBFCE11280BCE8489EE6B74 /* Products */,
 				B4D28CF0176F4A12ECCCDF4B867C3DBB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		93025D5D99B22F8778E62DFD79C9E1A2 /* MARoundButton */ = {
+		9925681C0E31953B091565E49A08EE3B /* MARoundButton */ = {
 			isa = PBXGroup;
 			children = (
-				F62925B4462F23F87A828F14BBE0B964 /* MARoundButton.swift */,
-				D10BF1FFF3D0B2F842BD8C1492752BA1 /* Support Files */,
+				496FE8D6ABC2ECF467A68F3990A19CFA /* MARoundButton.swift */,
+				300F6FC8F693ED5866F1C368F928464E /* Support Files */,
 			);
 			path = MARoundButton;
-			sourceTree = "<group>";
-		};
-		959F365FB4342E997519942A6EC2AD8B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				694C9C5E96D03392AC1AFE16D87F4E47 /* MARoundButton.framework */,
-				9D7497D089EC6D3EEE1E8F0BA59C364C /* Pods_BoiledEggs.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B34C01695344C0A0E81359CBBC28AF29 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				93025D5D99B22F8778E62DFD79C9E1A2 /* MARoundButton */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B4D28CF0176F4A12ECCCDF4B867C3DBB /* Targets Support Files */ = {
@@ -141,39 +235,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		DA1F88A49F132F17D28C6AC8512C248E /* LTMorphingLabel */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				A73CBC30513691E1F80A9CA761A56624 /* LTCharacterDiffResult.swift */,
+				E391438C25DB6342558852A7B1FCB2F4 /* LTCharacterLimbo.swift */,
+				2C9D15BB1DFA65CFF039E0C990F468C5 /* LTEasing.swift */,
+				89BAB3E7A37538E332AE3D12FF4F32D7 /* LTEmitterView.swift */,
+				87A6F42E6EAD3E2872C2481E7D3E165E /* LTMorphingEffect.swift */,
+				B054F9DE89A606E0C564BDF1AF49D028 /* LTMorphingLabel.h */,
+				9C1A7F64FC998E6079D3A85C8AC67702 /* LTMorphingLabel.swift */,
+				BE4C1FCA18115CD43F2299CD606E996F /* LTMorphingLabel+Anvil.swift */,
+				A55056A376747110F35F42A56D1C0399 /* LTMorphingLabel+Burn.swift */,
+				AD1A827117B6714C437C19368FE53CA1 /* LTMorphingLabel+Evaporate.swift */,
+				92053914AF7F705CB82485FA86C413D9 /* LTMorphingLabel+Fall.swift */,
+				001A8CE4456E9F7CDD1C6340285406E4 /* LTMorphingLabel+Pixelate.swift */,
+				90A3E4E6DAEEC90485D1FB2A6B4F8FED /* LTMorphingLabel+Sparkle.swift */,
+				053A2535471C7384C81877B306F565C7 /* LTStringDiffResult.swift */,
+				52ACCF4FDE77E1A2ACB120BD0077BBE2 /* Resources */,
+				DC9E1263BF973054318317A8C4770EF8 /* Support Files */,
 			);
-			name = Frameworks;
+			path = LTMorphingLabel;
 			sourceTree = "<group>";
 		};
-		D10BF1FFF3D0B2F842BD8C1492752BA1 /* Support Files */ = {
+		DC9E1263BF973054318317A8C4770EF8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3CB96B202D2CF4D7A86090C645E10D54 /* Info.plist */,
-				26B77BABF81D54DCE83B5F6E99EAC416 /* MARoundButton.modulemap */,
-				4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */,
-				850C26489F2D1177BCD4408A1D2B88E6 /* MARoundButton-dummy.m */,
-				92EEC033FFC1C50D9E66BD822519802B /* MARoundButton-prefix.pch */,
-				A8026C503F71209511C2F1BCC96DE703 /* MARoundButton-umbrella.h */,
+				D5428633EE43C519F28E27D0F9EE90CE /* Info.plist */,
+				9E9BBB7CB85BF5BE66303CCC44344DEC /* LTMorphingLabel.modulemap */,
+				4A98971F22014955534C4FC0EC204FC9 /* LTMorphingLabel.xcconfig */,
+				68BB979B93C19815885075BC7EC6CD45 /* LTMorphingLabel-dummy.m */,
+				E1A0B4987006B69F0235F9640C76E1E6 /* LTMorphingLabel-prefix.pch */,
+				8BE13E3547566CE011D05C58A2F0B541 /* LTMorphingLabel-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/MARoundButton";
+			path = "../Target Support Files/LTMorphingLabel";
+			sourceTree = "<group>";
+		};
+		DFDE779C6E5D3445E0CB8CCB8D424449 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A817CAE99C81EE68006DC1E60E295C0A /* Foundation.framework */,
+				23016F69B2480F44D0BB5526B39192FA /* QuartzCore.framework */,
+				091D54A73E1E8BB182C9D7D245AF1C2F /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4164FE4BA26E0D07DB380B087F366625 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				426E3480852F8316526BADF0D17B7959 /* Pods-BoiledEggs-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6BF76F7CF13576260FD44E80C49F784A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,25 +293,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A68D911CB3BB27F0B3203D1897755BA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8ADE2FC7E708039FAAF340C7CA4A496 /* Pods-BoiledEggs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0D64A4E6074F464C1DE1E4D167B4E7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23054CAD90455D077015A23DD84EEF01 /* LTMorphingLabel-umbrella.h in Headers */,
+				8301B71DD16F563BA67206B98D43A043 /* LTMorphingLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		543B8F5A69565C257FD66445A9AD66CD /* Pods-BoiledEggs */ = {
+		3C900E8E2449EBBCC12128A9BDA69E7F /* LTMorphingLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D01B33EC82C1355BA68590A146A92E80 /* Build configuration list for PBXNativeTarget "Pods-BoiledEggs" */;
+			buildConfigurationList = 62B271FE16BC21C7468518C10754D815 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */;
 			buildPhases = (
-				362F04164B149DB3B1542CD00491DB11 /* Sources */,
-				9C5BA73288B8F1DF5CE9E8CC3D217CDE /* Frameworks */,
-				4164FE4BA26E0D07DB380B087F366625 /* Headers */,
+				5E0E9EBCE28BB25572BD0B8D2F98031D /* Sources */,
+				8FDF3B54E4362F6D018AC08D8E96991E /* Frameworks */,
+				E0D64A4E6074F464C1DE1E4D167B4E7A /* Headers */,
+				84B1B8D40F5C2F6CE103EA08D67AD352 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BA97535404582C5329D24280281BBA6E /* PBXTargetDependency */,
 			);
-			name = "Pods-BoiledEggs";
-			productName = "Pods-BoiledEggs";
-			productReference = 9D7497D089EC6D3EEE1E8F0BA59C364C /* Pods_BoiledEggs.framework */;
+			name = LTMorphingLabel;
+			productName = LTMorphingLabel;
+			productReference = D67A1758C84F5A27DF53BBA25C1C719D /* LTMorphingLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		625BAF45DC2998CC93CAE4B4D9FE3A4A /* MARoundButton */ = {
@@ -217,7 +345,26 @@
 			);
 			name = MARoundButton;
 			productName = MARoundButton;
-			productReference = 694C9C5E96D03392AC1AFE16D87F4E47 /* MARoundButton.framework */;
+			productReference = 64B574DD754DA578FBA3BA90C9053718 /* MARoundButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BDCF9310CFA456B2FFC1DA392E516453 /* Pods-BoiledEggs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212BD624666AF71BF3543902AEEA6725 /* Build configuration list for PBXNativeTarget "Pods-BoiledEggs" */;
+			buildPhases = (
+				5BCEF2146830C31678CA2334A39896B3 /* Sources */,
+				791A3F9A2CEE4EE09456FC925D7A1595 /* Frameworks */,
+				A68D911CB3BB27F0B3203D1897755BA7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				333519CD8823E345D9BDCB632C62B629 /* PBXTargetDependency */,
+				76A46DCED4F257A0F590CBD703275AAC /* PBXTargetDependency */,
+			);
+			name = "Pods-BoiledEggs";
+			productName = "Pods-BoiledEggs";
+			productReference = 0268D7DC79343617AD33D10B6C6D8BEC /* Pods_BoiledEggs.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -229,10 +376,13 @@
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
-					543B8F5A69565C257FD66445A9AD66CD = {
+					3C900E8E2449EBBCC12128A9BDA69E7F = {
 						LastSwiftMigration = 0800;
 					};
 					625BAF45DC2998CC93CAE4B4D9FE3A4A = {
+						LastSwiftMigration = 0800;
+					};
+					BDCF9310CFA456B2FFC1DA392E516453 = {
 						LastSwiftMigration = 0800;
 					};
 				};
@@ -245,22 +395,58 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 959F365FB4342E997519942A6EC2AD8B /* Products */;
+			productRefGroup = 17AA3F7D6BBFCE11280BCE8489EE6B74 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				3C900E8E2449EBBCC12128A9BDA69E7F /* LTMorphingLabel */,
 				625BAF45DC2998CC93CAE4B4D9FE3A4A /* MARoundButton */,
-				543B8F5A69565C257FD66445A9AD66CD /* Pods-BoiledEggs */,
+				BDCF9310CFA456B2FFC1DA392E516453 /* Pods-BoiledEggs */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		84B1B8D40F5C2F6CE103EA08D67AD352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942D48D4CEF34BC5096E39420F18B1DB /* Fire.png in Resources */,
+				7E4352505367B6A8C683AE16AFEACDE8 /* Fragment.png in Resources */,
+				45F38763795A23551D3D52FB609D24D3 /* Smoke.png in Resources */,
+				0193EDA135E40CB621E1309BB8024A93 /* Sparkle.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		362F04164B149DB3B1542CD00491DB11 /* Sources */ = {
+		5BCEF2146830C31678CA2334A39896B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B682AB588A07E8AC5BB017353BB6D13C /* Pods-BoiledEggs-dummy.m in Sources */,
+				5C85705145BF58E90F35C9674D2CA460 /* Pods-BoiledEggs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E0E9EBCE28BB25572BD0B8D2F98031D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA7681AACFC8BDC8210C9F3516858AE /* LTCharacterDiffResult.swift in Sources */,
+				941DE6C949CEC058FB67DF9E9AAE635C /* LTCharacterLimbo.swift in Sources */,
+				14631D3D598B00D3F659293B0317A358 /* LTEasing.swift in Sources */,
+				0CD2524F2BD9AFA2FD300DEE3EE18232 /* LTEmitterView.swift in Sources */,
+				B6724501E4B12A8B5E370ECD51E14059 /* LTMorphingEffect.swift in Sources */,
+				77EABCF161CC76C266D46844DF9D820D /* LTMorphingLabel+Anvil.swift in Sources */,
+				CD67A28565AFBBCD8C3839A6949C925C /* LTMorphingLabel+Burn.swift in Sources */,
+				3F07ED106A407C5B1B4FE5F439FA43A6 /* LTMorphingLabel+Evaporate.swift in Sources */,
+				FBF63520DEBF34F12CEB15C5D5B6DAA7 /* LTMorphingLabel+Fall.swift in Sources */,
+				EF1B437530C0818DBB357E314C803480 /* LTMorphingLabel+Pixelate.swift in Sources */,
+				94BC299B8F9B0F31152B36B1D8917F93 /* LTMorphingLabel+Sparkle.swift in Sources */,
+				3D30BB5B428DA97E7DAC8CC6D0029851 /* LTMorphingLabel-dummy.m in Sources */,
+				6580AF1AB830B395ACBE14A0A843D042 /* LTMorphingLabel.swift in Sources */,
+				A5EFEE9D20BD555B6E2D462E95B05DD5 /* LTStringDiffResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,15 +462,86 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BA97535404582C5329D24280281BBA6E /* PBXTargetDependency */ = {
+		333519CD8823E345D9BDCB632C62B629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LTMorphingLabel;
+			target = 3C900E8E2449EBBCC12128A9BDA69E7F /* LTMorphingLabel */;
+			targetProxy = 57B8612C588EEEF4D121857900A12127 /* PBXContainerItemProxy */;
+		};
+		76A46DCED4F257A0F590CBD703275AAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MARoundButton;
 			target = 625BAF45DC2998CC93CAE4B4D9FE3A4A /* MARoundButton */;
-			targetProxy = 7F0B039FDBB8D8D467379BEB34063B2F /* PBXContainerItemProxy */;
+			targetProxy = 8D4ED9CF9A4D89DBC518D70C5BD22F3F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		255E2841A63B12E17F0826464B55679A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0BAE7E8275935A3BA838BAA09421FF /* Pods-BoiledEggs.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoiledEggs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoiledEggs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		37041B1E783C1EF6642F7E7D0CD7BA2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A98971F22014955534C4FC0EC204FC9 /* LTMorphingLabel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LTMorphingLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -325,7 +582,7 @@
 		};
 		40004AAD12908095CDD002B5279C4B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */;
+			baseConfigurationReference = 2347E589F94240C81F1EFEB4098FEA35 /* MARoundButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -354,39 +611,36 @@
 			};
 			name = Debug;
 		};
-		5A0BECE9B7CFC2AF05F1E88F88AED18B /* Release */ = {
+		50792EB788D9EDDAEC9A91412A8D2329 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F5D8BF9734764B5A1E01E354461E183 /* Pods-BoiledEggs.release.xcconfig */;
+			baseConfigurationReference = 4A98971F22014955534C4FC0EC204FC9 /* LTMorphingLabel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-BoiledEggs/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LTMorphingLabel/LTMorphingLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LTMorphingLabel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_BoiledEggs;
+				MODULEMAP_FILE = "Target Support Files/LTMorphingLabel/LTMorphingLabel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LTMorphingLabel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -430,13 +684,13 @@
 			};
 			name = Debug;
 		};
-		98078514A66D898BD103801575357E67 /* Debug */ = {
+		9F770BAAB51D1951CA176302CBC88CE1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9A0BAE7E8275935A3BA838BAA09421FF /* Pods-BoiledEggs.debug.xcconfig */;
+			baseConfigurationReference = 0F5D8BF9734764B5A1E01E354461E183 /* Pods-BoiledEggs.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -449,7 +703,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -457,17 +711,16 @@
 				PRODUCT_NAME = Pods_BoiledEggs;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		DA5622C91DA7654FC56BDE5E0CA77053 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */;
+			baseConfigurationReference = 2347E589F94240C81F1EFEB4098FEA35 /* MARoundButton.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -498,6 +751,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		212BD624666AF71BF3543902AEEA6725 /* Build configuration list for PBXNativeTarget "Pods-BoiledEggs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255E2841A63B12E17F0826464B55679A /* Debug */,
+				9F770BAAB51D1951CA176302CBC88CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -507,20 +769,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		62B271FE16BC21C7468518C10754D815 /* Build configuration list for PBXNativeTarget "LTMorphingLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50792EB788D9EDDAEC9A91412A8D2329 /* Debug */,
+				37041B1E783C1EF6642F7E7D0CD7BA2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AEF785245B509517F1E5F0E14C6B426B /* Build configuration list for PBXNativeTarget "MARoundButton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40004AAD12908095CDD002B5279C4B81 /* Debug */,
 				DA5622C91DA7654FC56BDE5E0CA77053 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D01B33EC82C1355BA68590A146A92E80 /* Build configuration list for PBXNativeTarget "Pods-BoiledEggs" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				98078514A66D898BD103801575357E67 /* Debug */,
-				5A0BECE9B7CFC2AF05F1E88F88AED18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

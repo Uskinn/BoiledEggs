@@ -15,6 +15,6 @@ class EggTableViewCell: UITableViewCell, ConfigurableCell {
         
         guard let cellModel = cellModel as? EggSize else { return }
         eggLabel.text = cellModel.rawValue
-        eggLabel.font = UIFont(name: "Kailasa Regular", size: 102)
+        eggLabel.font = UIFont(name: "Menlo", size: 30)
     }
 }

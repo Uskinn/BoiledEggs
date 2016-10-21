@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8A0056701DB99B7500EFC274 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00566F1DB99B7500EFC274 /* TimerViewController.swift */; };
+		8A0056721DBAA6FF00EFC274 /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0056711DBAA6FF00EFC274 /* EggTimer.swift */; };
 		8A06643B1DB274D3004EAEBE /* EggTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06643A1DB274D3004EAEBE /* EggTableViewCell.swift */; };
 		8A06643D1DB27AE7004EAEBE /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06643C1DB27AE7004EAEBE /* TypeViewController.swift */; };
 		8A06643F1DB27CE1004EAEBE /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06643E1DB27CE1004EAEBE /* TypeTableViewCell.swift */; };
@@ -26,6 +27,7 @@
 		2A3197841038F6C1377BA7F0 /* Pods-BoiledEggs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoiledEggs.release.xcconfig"; path = "Pods/Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.release.xcconfig"; sourceTree = "<group>"; };
 		8137D9FA6C31C6262154BD65 /* Pods-BoiledEggs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoiledEggs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.debug.xcconfig"; sourceTree = "<group>"; };
 		8A00566F1DB99B7500EFC274 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		8A0056711DBAA6FF00EFC274 /* EggTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
 		8A06643A1DB274D3004EAEBE /* EggTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTableViewCell.swift; sourceTree = "<group>"; };
 		8A06643C1DB27AE7004EAEBE /* TypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
 		8A06643E1DB27CE1004EAEBE /* TypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				8A0664431DB2CC21004EAEBE /* Egg.swift */,
+				8A0056711DBAA6FF00EFC274 /* EggTimer.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				8A06643D1DB27AE7004EAEBE /* TypeViewController.swift in Sources */,
 				8A0056701DB99B7500EFC274 /* TimerViewController.swift in Sources */,
 				8A0664441DB2CC21004EAEBE /* Egg.swift in Sources */,
+				8A0056721DBAA6FF00EFC274 /* EggTimer.swift in Sources */,
 				8A0664461DB2D37C004EAEBE /* ConfigurableCell.swift in Sources */,
 				8A06643F1DB27CE1004EAEBE /* TypeTableViewCell.swift in Sources */,
 				8A0664411DB2CB74004EAEBE /* TableViewDataProvider.swift in Sources */,
