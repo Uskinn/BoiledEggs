@@ -17,5 +17,4 @@ class EggTableViewCell: UITableViewCell, ConfigurableCell {
         eggLabel.text = cellModel.rawValue
         eggLabel.font = UIFont(name: "Papyrus", size: 52)
     }
-    
 }

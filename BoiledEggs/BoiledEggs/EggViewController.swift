@@ -14,8 +14,6 @@ class ViewController: UIViewController {
     let eggNames = ["Large", "Extra Large", "Jumbo"]
     let dataProvider: TableViewDataProvider = TableViewDataProvider()
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,14 +21,12 @@ class ViewController: UIViewController {
         let model: [EggSize] = [.large, .extraLarge, .jumbo]
         dataProvider.model = model
         tableView.dataSource = dataProvider
-        
         self.navigationController?.navigationBar.barTintColor = .orange
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! TypeViewController
