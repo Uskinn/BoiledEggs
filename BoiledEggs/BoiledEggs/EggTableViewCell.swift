@@ -11,7 +11,7 @@ import UIKit
 class EggTableViewCell: UITableViewCell, ConfigurableCell {
     @IBOutlet weak var eggLabel: UILabel!
     
-    func configure(cellModel: Any) {
+    func configure(_ cellModel: Any) {
         
         guard let cellModel = cellModel as? EggSize else { return }
         eggLabel.text = cellModel.rawValue

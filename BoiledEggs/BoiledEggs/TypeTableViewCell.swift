@@ -11,7 +11,7 @@ import UIKit
 class TypeTableViewCell: UITableViewCell, ConfigurableCell {
     @IBOutlet weak var typeLabel: UILabel!
     
-    func configure(cellModel: Any) {
+    func configure(_ cellModel: Any) {
         
         guard let cellModel = cellModel as? BoiledType else { return }
         typeLabel.text = cellModel.rawValue

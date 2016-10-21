@@ -10,5 +10,5 @@ import Foundation
 
 protocol ConfigurableCell {
     
-    func configure(cellModel: Any) 
+    func configure(_ cellModel: Any) 
 }

@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09B74400B70ACA27D7117DC2A90F03D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		426E3480852F8316526BADF0D17B7959 /* Pods-BoiledEggs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F40BA9D5C772A260E4A0524C46C93EE /* Pods-BoiledEggs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EC4EFE796C46E9A6FC7A397A19C0E4D /* MARoundButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 850C26489F2D1177BCD4408A1D2B88E6 /* MARoundButton-dummy.m */; };
+		640E8CFAC0C521D5952A46746C3DDF85 /* MARoundButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8026C503F71209511C2F1BCC96DE703 /* MARoundButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93F1F3701FFB6A76F8CD60BA577E0CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B682AB588A07E8AC5BB017353BB6D13C /* Pods-BoiledEggs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0E6F9C18DF3A5B358CD534F1F5CDA /* Pods-BoiledEggs-dummy.m */; };
+		DE859B915C365F849CB06A3ECAAD471E /* MARoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62925B4462F23F87A828F14BBE0B964 /* MARoundButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F0B039FDBB8D8D467379BEB34063B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 625BAF45DC2998CC93CAE4B4D9FE3A4A;
+			remoteInfo = MARoundButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F5D8BF9734764B5A1E01E354461E183 /* Pods-BoiledEggs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoiledEggs.release.xcconfig"; sourceTree = "<group>"; };
+		26B77BABF81D54DCE83B5F6E99EAC416 /* MARoundButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MARoundButton.modulemap; sourceTree = "<group>"; };
+		3CB96B202D2CF4D7A86090C645E10D54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARoundButton.xcconfig; sourceTree = "<group>"; };
+		5DF0E6F9C18DF3A5B358CD534F1F5CDA /* Pods-BoiledEggs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoiledEggs-dummy.m"; sourceTree = "<group>"; };
+		6063462B39934D1F0FECCD9540BDA0AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		694C9C5E96D03392AC1AFE16D87F4E47 /* MARoundButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MARoundButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F40BA9D5C772A260E4A0524C46C93EE /* Pods-BoiledEggs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoiledEggs-umbrella.h"; sourceTree = "<group>"; };
+		732BF9D4E1D5D361F2496A1E4BC246DB /* Pods-BoiledEggs-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoiledEggs-acknowledgements.plist"; sourceTree = "<group>"; };
+		850C26489F2D1177BCD4408A1D2B88E6 /* MARoundButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MARoundButton-dummy.m"; sourceTree = "<group>"; };
+		88885B900815459EC90A17689AD3F735 /* Pods-BoiledEggs-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoiledEggs-frameworks.sh"; sourceTree = "<group>"; };
+		8E61D2048882EB1E392BB07A1F45F351 /* Pods-BoiledEggs-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoiledEggs-resources.sh"; sourceTree = "<group>"; };
+		92EEC033FFC1C50D9E66BD822519802B /* MARoundButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A0BAE7E8275935A3BA838BAA09421FF /* Pods-BoiledEggs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoiledEggs.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7497D089EC6D3EEE1E8F0BA59C364C /* Pods_BoiledEggs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoiledEggs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8026C503F71209511C2F1BCC96DE703 /* MARoundButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-umbrella.h"; sourceTree = "<group>"; };
+		CAD8C754C30DB26A46EFA2A3C63B4301 /* Pods-BoiledEggs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BoiledEggs.modulemap"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D1D3F187F2083BDA4A69F0DB5CB426DF /* Pods-BoiledEggs-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoiledEggs-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F62925B4462F23F87A828F14BBE0B964 /* MARoundButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MARoundButton.swift; path = MARoundButton/Classes/MARoundButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C5BA73288B8F1DF5CE9E8CC3D217CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B74400B70ACA27D7117DC2A90F03D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFABAAD2A1C14EA4EB81479652E1280A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93F1F3701FFB6A76F8CD60BA577E0CEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4AEF2B326E1EDC8C9A715A8409DBF900 /* Pods-BoiledEggs */ = {
+			isa = PBXGroup;
+			children = (
+				6063462B39934D1F0FECCD9540BDA0AB /* Info.plist */,
+				CAD8C754C30DB26A46EFA2A3C63B4301 /* Pods-BoiledEggs.modulemap */,
+				D1D3F187F2083BDA4A69F0DB5CB426DF /* Pods-BoiledEggs-acknowledgements.markdown */,
+				732BF9D4E1D5D361F2496A1E4BC246DB /* Pods-BoiledEggs-acknowledgements.plist */,
+				5DF0E6F9C18DF3A5B358CD534F1F5CDA /* Pods-BoiledEggs-dummy.m */,
+				88885B900815459EC90A17689AD3F735 /* Pods-BoiledEggs-frameworks.sh */,
+				8E61D2048882EB1E392BB07A1F45F351 /* Pods-BoiledEggs-resources.sh */,
+				6F40BA9D5C772A260E4A0524C46C93EE /* Pods-BoiledEggs-umbrella.h */,
+				9A0BAE7E8275935A3BA838BAA09421FF /* Pods-BoiledEggs.debug.xcconfig */,
+				0F5D8BF9734764B5A1E01E354461E183 /* Pods-BoiledEggs.release.xcconfig */,
+			);
+			name = "Pods-BoiledEggs";
+			path = "Target Support Files/Pods-BoiledEggs";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B34C01695344C0A0E81359CBBC28AF29 /* Pods */,
+				959F365FB4342E997519942A6EC2AD8B /* Products */,
+				B4D28CF0176F4A12ECCCDF4B867C3DBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93025D5D99B22F8778E62DFD79C9E1A2 /* MARoundButton */ = {
+			isa = PBXGroup;
+			children = (
+				F62925B4462F23F87A828F14BBE0B964 /* MARoundButton.swift */,
+				D10BF1FFF3D0B2F842BD8C1492752BA1 /* Support Files */,
+			);
+			path = MARoundButton;
+			sourceTree = "<group>";
+		};
+		959F365FB4342E997519942A6EC2AD8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				694C9C5E96D03392AC1AFE16D87F4E47 /* MARoundButton.framework */,
+				9D7497D089EC6D3EEE1E8F0BA59C364C /* Pods_BoiledEggs.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B34C01695344C0A0E81359CBBC28AF29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93025D5D99B22F8778E62DFD79C9E1A2 /* MARoundButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4D28CF0176F4A12ECCCDF4B867C3DBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AEF2B326E1EDC8C9A715A8409DBF900 /* Pods-BoiledEggs */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10BF1FFF3D0B2F842BD8C1492752BA1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB96B202D2CF4D7A86090C645E10D54 /* Info.plist */,
+				26B77BABF81D54DCE83B5F6E99EAC416 /* MARoundButton.modulemap */,
+				4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */,
+				850C26489F2D1177BCD4408A1D2B88E6 /* MARoundButton-dummy.m */,
+				92EEC033FFC1C50D9E66BD822519802B /* MARoundButton-prefix.pch */,
+				A8026C503F71209511C2F1BCC96DE703 /* MARoundButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MARoundButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4164FE4BA26E0D07DB380B087F366625 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426E3480852F8316526BADF0D17B7959 /* Pods-BoiledEggs-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF76F7CF13576260FD44E80C49F784A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				640E8CFAC0C521D5952A46746C3DDF85 /* MARoundButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		543B8F5A69565C257FD66445A9AD66CD /* Pods-BoiledEggs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01B33EC82C1355BA68590A146A92E80 /* Build configuration list for PBXNativeTarget "Pods-BoiledEggs" */;
+			buildPhases = (
+				362F04164B149DB3B1542CD00491DB11 /* Sources */,
+				9C5BA73288B8F1DF5CE9E8CC3D217CDE /* Frameworks */,
+				4164FE4BA26E0D07DB380B087F366625 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA97535404582C5329D24280281BBA6E /* PBXTargetDependency */,
+			);
+			name = "Pods-BoiledEggs";
+			productName = "Pods-BoiledEggs";
+			productReference = 9D7497D089EC6D3EEE1E8F0BA59C364C /* Pods_BoiledEggs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		625BAF45DC2998CC93CAE4B4D9FE3A4A /* MARoundButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF785245B509517F1E5F0E14C6B426B /* Build configuration list for PBXNativeTarget "MARoundButton" */;
+			buildPhases = (
+				C7B9E81B77682F906B5B95466F10EA9D /* Sources */,
+				EFABAAD2A1C14EA4EB81479652E1280A /* Frameworks */,
+				6BF76F7CF13576260FD44E80C49F784A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MARoundButton;
+			productName = MARoundButton;
+			productReference = 694C9C5E96D03392AC1AFE16D87F4E47 /* MARoundButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					543B8F5A69565C257FD66445A9AD66CD = {
+						LastSwiftMigration = 0800;
+					};
+					625BAF45DC2998CC93CAE4B4D9FE3A4A = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 959F365FB4342E997519942A6EC2AD8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				625BAF45DC2998CC93CAE4B4D9FE3A4A /* MARoundButton */,
+				543B8F5A69565C257FD66445A9AD66CD /* Pods-BoiledEggs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362F04164B149DB3B1542CD00491DB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B682AB588A07E8AC5BB017353BB6D13C /* Pods-BoiledEggs-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B9E81B77682F906B5B95466F10EA9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC4EFE796C46E9A6FC7A397A19C0E4D /* MARoundButton-dummy.m in Sources */,
+				DE859B915C365F849CB06A3ECAAD471E /* MARoundButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA97535404582C5329D24280281BBA6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MARoundButton;
+			target = 625BAF45DC2998CC93CAE4B4D9FE3A4A /* MARoundButton */;
+			targetProxy = 7F0B039FDBB8D8D467379BEB34063B2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40004AAD12908095CDD002B5279C4B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MARoundButton/MARoundButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MARoundButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MARoundButton/MARoundButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MARoundButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5A0BECE9B7CFC2AF05F1E88F88AED18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5D8BF9734764B5A1E01E354461E183 /* Pods-BoiledEggs.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoiledEggs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoiledEggs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98078514A66D898BD103801575357E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0BAE7E8275935A3BA838BAA09421FF /* Pods-BoiledEggs.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BoiledEggs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoiledEggs/Pods-BoiledEggs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BoiledEggs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA5622C91DA7654FC56BDE5E0CA77053 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA38F277DBDB848481DD879B49CE0F8 /* MARoundButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MARoundButton/MARoundButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MARoundButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MARoundButton/MARoundButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MARoundButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF785245B509517F1E5F0E14C6B426B /* Build configuration list for PBXNativeTarget "MARoundButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40004AAD12908095CDD002B5279C4B81 /* Debug */,
+				DA5622C91DA7654FC56BDE5E0CA77053 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01B33EC82C1355BA68590A146A92E80 /* Build configuration list for PBXNativeTarget "Pods-BoiledEggs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98078514A66D898BD103801575357E67 /* Debug */,
+				5A0BECE9B7CFC2AF05F1E88F88AED18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
