@@ -21,7 +21,11 @@ class ViewController: UIViewController {
         let model: [EggSize] = [.large, .extraLarge, .jumbo]
         dataProvider.model = model
         tableView.dataSource = dataProvider
-        self.navigationController?.navigationBar.barTintColor = .orange
+        
+         self.navigationController?.navigationBar.clipsToBounds = true
+        self.navigationController?.navigationBar.barTintColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

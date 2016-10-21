@@ -15,6 +15,6 @@ class TypeTableViewCell: UITableViewCell, ConfigurableCell {
         
         guard let cellModel = cellModel as? BoiledType else { return }
         typeLabel.text = cellModel.rawValue
-        typeLabel.font = UIFont(name: "Papyrus", size: 52)
+        typeLabel.font = UIFont(name: "Kailasa Regular", size: 102)
     }
 }
