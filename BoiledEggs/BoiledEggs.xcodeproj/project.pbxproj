@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0056701DB99B7500EFC274 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00566F1DB99B7500EFC274 /* TimerViewController.swift */; };
 		8A06643B1DB274D3004EAEBE /* EggTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06643A1DB274D3004EAEBE /* EggTableViewCell.swift */; };
 		8A06643D1DB27AE7004EAEBE /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06643C1DB27AE7004EAEBE /* TypeViewController.swift */; };
 		8A06643F1DB27CE1004EAEBE /* TypeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A06643E1DB27CE1004EAEBE /* TypeTableViewCell.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A00566F1DB99B7500EFC274 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		8A06643A1DB274D3004EAEBE /* EggTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTableViewCell.swift; sourceTree = "<group>"; };
 		8A06643C1DB27AE7004EAEBE /* TypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
 		8A06643E1DB27CE1004EAEBE /* TypeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeTableViewCell.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		8AFD2E471DB0315600016A62 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8A00566F1DB99B7500EFC274 /* TimerViewController.swift */,
 				8AFD2E451DB0314F00016A62 /* EggViewController.swift */,
 				8A06643C1DB27AE7004EAEBE /* TypeViewController.swift */,
 			);
@@ -188,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A06643D1DB27AE7004EAEBE /* TypeViewController.swift in Sources */,
+				8A0056701DB99B7500EFC274 /* TimerViewController.swift in Sources */,
 				8A0664441DB2CC21004EAEBE /* Egg.swift in Sources */,
 				8A0664461DB2D37C004EAEBE /* ConfigurableCell.swift in Sources */,
 				8A06643F1DB27CE1004EAEBE /* TypeTableViewCell.swift in Sources */,

@@ -93,7 +93,7 @@
                                             <frame key="frameInset" width="375" height="201.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXX-TY-SvM">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXX-TY-SvM">
                                                     <frame key="frameInset" minX="8" minY="53" width="359" height="90"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -104,6 +104,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="typeLabel" destination="OXX-TY-SvM" id="cia-ET-Ud5"/>
+                                            <segue destination="5Cu-ne-fKc" kind="show" identifier="timer" id="trD-ah-0I2"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -129,6 +130,44 @@
             </objects>
             <point key="canvasLocation" x="1911" y="28"/>
         </scene>
+        <!--Timer View Controller-->
+        <scene sceneID="R9Z-8N-25o">
+            <objects>
+                <viewController id="5Cu-ne-fKc" customClass="TimerViewController" customModule="BoiledEggs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lih-Fm-WGd"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fk2-S1-6Ak"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5rh-6Q-t3A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cm7-UO-Oxp">
+                                <frame key="frameInset" minX="56" minY="164" width="262" height="99"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.93245005692655958" blue="0.34013184231901028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXs-Jr-ksj">
+                                <frame key="frameInset" minX="67" minY="467" width="81" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Start"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VhB-zO-esx">
+                                <frame key="frameInset" minX="230" minY="467" width="76" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pause"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pba-Pu-9q6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2661.5999999999999" y="26.53673163418291"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="u3k-R3-US3">
             <objects>
@@ -146,36 +185,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="54q-CG-TwL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="430" y="29"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="fno-mE-hNH">
-            <objects>
-                <viewController id="Rld-cA-P9H" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="kne-eV-mD3"/>
-                        <viewControllerLayoutGuide type="bottom" id="ffv-zV-hwv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ntd-ih-EAJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6CF-WR-pHW"/>
-                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VU7-40-YZw"/>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="6CF-WR-pHW" secondAttribute="trailing" id="8pP-g4-2Zm"/>
-                            <constraint firstItem="6CF-WR-pHW" firstAttribute="leading" secondItem="ntd-ih-EAJ" secondAttribute="leading" id="XCN-gf-UNX"/>
-                            <constraint firstItem="6CF-WR-pHW" firstAttribute="top" secondItem="ntd-ih-EAJ" secondAttribute="top" id="gL6-ix-YRQ"/>
-                            <constraint firstItem="VU7-40-YZw" firstAttribute="leading" secondItem="6CF-WR-pHW" secondAttribute="leading" id="kVt-LE-NYe"/>
-                            <constraint firstItem="VU7-40-YZw" firstAttribute="trailing" secondItem="6CF-WR-pHW" secondAttribute="trailing" id="sS9-J0-pap"/>
-                            <constraint firstItem="VU7-40-YZw" firstAttribute="centerY" secondItem="ntd-ih-EAJ" secondAttribute="centerY" id="yxQ-15-Xcw"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XGV-4P-RrI" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="916" y="714"/>
         </scene>
     </scenes>
 </document>
