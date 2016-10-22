@@ -28,7 +28,7 @@ class TimerViewController: UIViewController {
         configureViewLabel()
         configureBehindButtonLabel()
         
-        seconds = 120
+        seconds = 10
         
     }
     
@@ -54,6 +54,7 @@ class TimerViewController: UIViewController {
     
     func configureBehindButtonLabel() {
         
+        behindButtonLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
         behindButtonLabel.layer.cornerRadius = 52.0
         behindButtonLabel.clipsToBounds = true
     }
