@@ -28,9 +28,9 @@ class TimerViewController: UIViewController {
         configureViewLabel()
         configureBehindButtonLabel()
         
+        seconds = 120
         
-        
-            }
+    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -40,8 +40,6 @@ class TimerViewController: UIViewController {
     @IBAction func startButton(_ sender: AnyObject) {
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(TimerViewController.updateTimer) , userInfo: nil, repeats: true)
-        
-        
     }
     
     @IBAction func pauseButton(_ sender: AnyObject) {
@@ -56,16 +54,21 @@ class TimerViewController: UIViewController {
     
     func configureBehindButtonLabel() {
         
-        //behindButtonLabel.backgroundColor = .blue
         behindButtonLabel.layer.cornerRadius = 52.0
         behindButtonLabel.clipsToBounds = true
     }
     
     func updateTimer() {
         
-        seconds = seconds + 1
-        timerLabel.text = "\(seconds)"
-        
+        if seconds > 0 {
+            seconds -= 1
+            timerLabel.text = String(self.timeFormatted(totalSeconds: self.seconds))
+        }
     }
     
+    func timeFormatted(totalSeconds: Int) -> String {
+        let seconds: Int = totalSeconds % 60
+        let minutes: Int = (totalSeconds / 60) % 60
+        return String(format: "%02d:%02d", minutes, seconds)
+    }
 }
