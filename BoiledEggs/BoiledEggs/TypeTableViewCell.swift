@@ -12,7 +12,6 @@ class TypeTableViewCell: UITableViewCell, ConfigurableCell {
     @IBOutlet weak var typeLabel: UILabel!
     
     func configure(_ cellModel: Any) {
-        
         guard let cellModel = cellModel as? BoiledType else { return }
         typeLabel.text = cellModel.rawValue
         typeLabel.font = UIFont(name: "Menlo", size: 30)

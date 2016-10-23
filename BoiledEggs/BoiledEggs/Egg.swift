@@ -9,21 +9,18 @@
 import Foundation
 
 enum EggSize: String {
-    
     case large = "Large"
     case extraLarge = "Extra Large"
     case jumbo = "Jumbo"
 }
 
 enum BoiledType: String {
-    
     case soft = "Soft"
     case medium = "Medium"
     case hard = "Hard"
 }
 
-struct Egg {
-    
+struct Eggs {
     let boiledType: BoiledType
     let eggSize: EggSize
 }

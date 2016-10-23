@@ -9,6 +9,5 @@
 import Foundation
 
 protocol ConfigurableCell {
-    
     func configure(_ cellModel: Any) 
 }

@@ -11,18 +11,17 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
-    let eggNames = ["Large", "Extra Large", "Jumbo"]
+    let model: [EggSize] = [.large, .extraLarge, .jumbo]
     let dataProvider: TableViewDataProvider = TableViewDataProvider()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         dataProvider.cellIdentifier = "cell"
-        let model: [EggSize] = [.large, .extraLarge, .jumbo]
         dataProvider.model = model
         tableView.dataSource = dataProvider
         
-       // self.navigationController?.navigationBar.clipsToBounds = true
+        // self.navigationController?.navigationBar.clipsToBounds = true
         self.navigationController?.navigationBar.barTintColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
     }
     
