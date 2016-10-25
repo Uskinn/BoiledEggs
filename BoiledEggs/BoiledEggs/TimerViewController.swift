@@ -59,16 +59,9 @@ class TimerViewController: UIViewController {
     }
     
     func secondsLeft() {
-        
-        enum Eggy: String {
-            
-            case EggSize.large && BoiledType.soft = s
-        }
-        
-        
-        
+        self.seconds = 32
             }
     
     
-    
 }
+

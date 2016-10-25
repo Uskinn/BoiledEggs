@@ -31,8 +31,10 @@ class TypeViewController: UIViewController {
         let destinationVC = segue.destination as! TimerViewController
         let cell = sender as! TypeTableViewCell
         destinationVC.navigationItem.title = cell.typeLabel.text
+        
     }
 }
+
 
 
 
