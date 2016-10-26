@@ -20,16 +20,13 @@ class TimerViewController: UIViewController {
     
     var seconds: Int = 0
     var timer = Timer()
-    
-    
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
         viewLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
         configureBehindButtonLabel()
-        
-        secondsLeft()
+        self.timerLabel.text = String(EggTimer.timeFormatted(totalSeconds: self.seconds))
     }
     
     override func didReceiveMemoryWarning() {
@@ -57,11 +54,5 @@ class TimerViewController: UIViewController {
             timerLabel.text = String(EggTimer.timeFormatted(totalSeconds: self.seconds))
         }
     }
-    
-    func secondsLeft() {
-        self.seconds = 32
-            }
-    
-    
 }
 

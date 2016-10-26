@@ -14,6 +14,8 @@ class TypeViewController: UIViewController {
     let dataProvider: TableViewDataProvider = TableViewDataProvider()
     let model: [BoiledType] = [.soft, .medium, .hard]
     
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -31,6 +33,7 @@ class TypeViewController: UIViewController {
         let destinationVC = segue.destination as! TimerViewController
         let cell = sender as! TypeTableViewCell
         destinationVC.navigationItem.title = cell.typeLabel.text
+        destinationVC.seconds = 200
         
     }
 }
