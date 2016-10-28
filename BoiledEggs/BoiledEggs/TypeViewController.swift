@@ -14,7 +14,7 @@ class TypeViewController: UIViewController {
     let dataProvider: TableViewDataProvider = TableViewDataProvider()
     let model: [BoiledType] = [.soft, .medium, .hard]
     
-
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +35,30 @@ class TypeViewController: UIViewController {
         destinationVC.navigationItem.title = cell.typeLabel.text
         destinationVC.seconds = 200
         
+//        let qwe = EggSize()
+//        
+//        let boilingTime = Eggs(eggSize: EggSize, boiledType: BoiledType)
+//        
+//        switch boilingTime {
+//        case <#pattern#>:
+//            <#code#>
+//        default:
+//            <#code#>
+//        }
+        
+        
+        
+        //       Eggs(eggSize: .large, boiledType: .soft)
+        //       Eggs(eggSize: .large, boiledType: .medium)
+        //       Eggs(eggSize: .large, boiledType: .hard)
+        //
+        //       Eggs(eggSize: .extraLarge, boiledType: .soft)
+        //       Eggs(eggSize: .extraLarge, boiledType: .medium)
+        //       Eggs(eggSize: .extraLarge, boiledType: .hard)
+        //
+        //       Eggs(eggSize: .jumbo, boiledType: .soft)
+        //       Eggs(eggSize: .jumbo, boiledType: .medium)
+        //       Eggs(eggSize: .jumbo, boiledType: .hard)
     }
 }
 
