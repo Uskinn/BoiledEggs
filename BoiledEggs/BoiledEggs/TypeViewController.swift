@@ -33,18 +33,13 @@ class TypeViewController: UIViewController {
         let destinationVC = segue.destination as! TimerViewController
         let cell = sender as! TypeTableViewCell
         destinationVC.navigationItem.title = cell.typeLabel.text
-        destinationVC.seconds = 200
+       // destinationVC.seconds = 200
         
-//        let qwe = EggSize()
-//        
-//        let boilingTime = Eggs(eggSize: EggSize, boiledType: BoiledType)
-//        
-//        switch boilingTime {
-//        case <#pattern#>:
-//            <#code#>
-//        default:
-//            <#code#>
-//        }
+        let qwerty = Eggs(eggSize: .large, boiledType: .soft)
+        let asdfg = Eggs(eggSize: .large, boiledType: .medium)
+        let qaz = Eggs(eggSize: .large, boiledType: .hard)
+        
+        var newArr = [qwerty, asdfg, qaz]
         
         
         

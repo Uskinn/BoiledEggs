@@ -25,3 +25,4 @@ struct Eggs {
     let boiledType: BoiledType
     
 }
+
