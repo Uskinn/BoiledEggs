@@ -33,5 +33,11 @@ class ViewController: UIViewController {
         let destinationVC = segue.destination as! TypeViewController
         let cell = sender as! EggTableViewCell
         destinationVC.navigationItem.title = cell.eggLabel.text
+        destinationVC.eggSize = cell.eggLabel.text!
+        
+       // print(destinationVC.eggSize)
+        
+       // print(cell.eggLabel.text)
+        
     }
 }

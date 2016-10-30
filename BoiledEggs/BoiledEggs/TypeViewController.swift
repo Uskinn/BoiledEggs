@@ -13,6 +13,8 @@ class TypeViewController: UIViewController {
     
     let dataProvider: TableViewDataProvider = TableViewDataProvider()
     let model: [BoiledType] = [.soft, .medium, .hard]
+    var eggSize: String = ""
+    var eggType: String = ""
     
     
     
@@ -33,27 +35,28 @@ class TypeViewController: UIViewController {
         let destinationVC = segue.destination as! TimerViewController
         let cell = sender as! TypeTableViewCell
         destinationVC.navigationItem.title = cell.typeLabel.text
-       // destinationVC.seconds = 200
+        eggType = cell.typeLabel.text!
         
-        let qwerty = Eggs(eggSize: .large, boiledType: .soft)
-        let asdfg = Eggs(eggSize: .large, boiledType: .medium)
-        let qaz = Eggs(eggSize: .large, boiledType: .hard)
+        if eggSize == "Jumbo" && eggType == "Soft" {
+            destinationVC.seconds = 44
+        }
         
-        var newArr = [qwerty, asdfg, qaz]
+        if eggSize == "Jumbo" && eggType == "Hard" {
+            destinationVC.seconds = 180
+        }
+        
+        if eggSize == "Jumbo" && eggType == "Medium" {
+            destinationVC.seconds = 300
+        }
+        
+        if eggSize == "Large" && eggType == "Soft" {
+            destinationVC.seconds = 22
+        }
         
         
+        print("egg type: \(eggType)")
+        print("egg size: \(eggSize)")
         
-        //       Eggs(eggSize: .large, boiledType: .soft)
-        //       Eggs(eggSize: .large, boiledType: .medium)
-        //       Eggs(eggSize: .large, boiledType: .hard)
-        //
-        //       Eggs(eggSize: .extraLarge, boiledType: .soft)
-        //       Eggs(eggSize: .extraLarge, boiledType: .medium)
-        //       Eggs(eggSize: .extraLarge, boiledType: .hard)
-        //
-        //       Eggs(eggSize: .jumbo, boiledType: .soft)
-        //       Eggs(eggSize: .jumbo, boiledType: .medium)
-        //       Eggs(eggSize: .jumbo, boiledType: .hard)
     }
 }
 
