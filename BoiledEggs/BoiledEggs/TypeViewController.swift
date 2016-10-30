@@ -37,23 +37,31 @@ class TypeViewController: UIViewController {
         destinationVC.navigationItem.title = cell.typeLabel.text
         eggType = cell.typeLabel.text!
         
-        if eggSize == "Jumbo" && eggType == "Soft" {
-            destinationVC.seconds = 44
-        }
+        let sizeAndType: Bool = true
         
-        if eggSize == "Jumbo" && eggType == "Hard" {
+        switch sizeAndType {
+        case eggSize == "Large" && eggType == "Soft":
             destinationVC.seconds = 180
-        }
-        
-        if eggSize == "Jumbo" && eggType == "Medium" {
+        case eggSize == "Large" && eggType == "Medium":
+            destinationVC.seconds = 240
+        case eggSize == "Large" && eggType == "Hard":
             destinationVC.seconds = 300
+        case eggSize == "Extra Large" && eggType == "Soft":
+            destinationVC.seconds = 240
+        case eggSize == "Extra Large" && eggType == "Medium":
+            destinationVC.seconds = 300
+        case eggSize == "Extra Large" && eggType == "Hard":
+            destinationVC.seconds = 360
+        case eggSize == "Jumbo" && eggType == "Soft":
+            destinationVC.seconds = 300
+        case eggSize == "Jumbo" && eggType == "Medium":
+            destinationVC.seconds = 360
+        case eggSize == "Jumbo" && eggType == "Hard":
+            destinationVC.seconds = 460
+        default:
+            break
         }
-        
-        if eggSize == "Large" && eggType == "Soft" {
-            destinationVC.seconds = 22
-        }
-        
-        
+               
         print("egg type: \(eggType)")
         print("egg size: \(eggSize)")
         
