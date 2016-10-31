@@ -31,5 +31,4 @@ class TableViewDataProvider: NSObject, UITableViewDataSource {
             return cell
         }
     }
-    
 }

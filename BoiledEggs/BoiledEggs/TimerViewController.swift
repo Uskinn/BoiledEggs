@@ -24,29 +24,26 @@ class TimerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.pauseOutlet.isEnabled = false
-        self.pauseOutlet.borderColor = .gray
-        self.pauseOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
-        
-        viewLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
+        pauseButtonFirstLook()
         configureBehindButtonLabel()
+
+        self.startOutlet.borderColor = UIColor(red:0.00, green:0.60, blue:0.60, alpha:1.0)
         self.timerLabel.text = String(EggTimer.timeFormatted(totalSeconds: self.seconds))
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func startButton(_ sender: AnyObject) {
-        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(TimerViewController.updateTimer) , userInfo: nil, repeats: true)
+        self.startOutlet.borderColor = .black
         
         self.pauseOutlet.isEnabled = true
         self.pauseOutlet.borderColor = .red
         self.pauseOutlet.backgroundColor = .white
         
         
-        
+        timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(TimerViewController.updateTimer) , userInfo: nil, repeats: true)
     }
     
     @IBAction func pauseButton(_ sender: AnyObject) {
@@ -57,6 +54,8 @@ class TimerViewController: UIViewController {
         behindButtonLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
         behindButtonLabel.layer.cornerRadius = 53.5
         behindButtonLabel.clipsToBounds = true
+        
+        viewLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
     }
     
     func updateTimer() {
@@ -64,6 +63,12 @@ class TimerViewController: UIViewController {
             seconds -= 1
             timerLabel.text = String(EggTimer.timeFormatted(totalSeconds: self.seconds))
         }
+    }
+    
+    func pauseButtonFirstLook() {
+        self.pauseOutlet.isEnabled = false
+        self.pauseOutlet.borderColor = .gray
+        self.pauseOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
     }
 }
 

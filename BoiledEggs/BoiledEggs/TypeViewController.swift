@@ -16,8 +16,6 @@ class TypeViewController: UIViewController {
     var eggSize: String = ""
     var eggType: String = ""
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,7 +26,6 @@ class TypeViewController: UIViewController {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -61,10 +58,8 @@ class TypeViewController: UIViewController {
         default:
             break
         }
-               
         print("egg type: \(eggType)")
         print("egg size: \(eggSize)")
-        
     }
 }
 
