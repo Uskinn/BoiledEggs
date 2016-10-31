@@ -200,6 +200,9 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderAlpha">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="startButton:" destination="5Cu-ne-fKc" eventType="touchUpInside" id="eh4-vs-8Iy"/>

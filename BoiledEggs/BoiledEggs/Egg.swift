@@ -23,6 +23,5 @@ enum BoiledType: String {
 struct Eggs {
     let eggSize: EggSize
     let boiledType: BoiledType
-    
 }
 
