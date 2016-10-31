@@ -58,12 +58,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8A0056731DBBB48800EFC274 /* Utility */ = {
+		8A0056731DBBB48800EFC274 /* Constant */ = {
 			isa = PBXGroup;
 			children = (
 				8A0056741DBBB49C00EFC274 /* ButtonColor.swift */,
 			);
-			name = Utility;
+			name = Constant;
 			sourceTree = "<group>";
 		};
 		8A0664391DB274B6004EAEBE /* Cell */ = {
@@ -107,7 +107,7 @@
 		8AFD2E311DB00E0900016A62 /* BoiledEggs */ = {
 			isa = PBXGroup;
 			children = (
-				8A0056731DBBB48800EFC274 /* Utility */,
+				8A0056731DBBB48800EFC274 /* Constant */,
 				8A0664421DB2CC0B004EAEBE /* Model */,
 				8A0664391DB274B6004EAEBE /* Cell */,
 				8AFD2E471DB0315600016A62 /* Controller */,

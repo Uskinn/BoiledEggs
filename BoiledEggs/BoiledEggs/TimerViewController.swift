@@ -20,7 +20,6 @@ class TimerViewController: UIViewController {
     
     var seconds: Int = 0
     var timer = Timer()
-    var enabled: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +27,7 @@ class TimerViewController: UIViewController {
         pauseButtonFirstLook()
         configureBehindButtonLabel()
         
+        startOutlet.setTitle("Start", for: UIControlState.normal)
         
         timerLabel.text = String(EggTimer.timeFormatted(totalSeconds: self.seconds))
     }
@@ -42,10 +42,11 @@ class TimerViewController: UIViewController {
         startOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
         startOutlet.borderColor = .red
         
+       //startOutlet.setTitle("Reset", for: UIControlState.normal)
+        
         pauseOutlet.isEnabled = true
         pauseOutlet.borderColor = .red
         pauseOutlet.backgroundColor = .white
-        
         
         timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(TimerViewController.updateTimer) , userInfo: nil, repeats: true)
     }
@@ -81,6 +82,7 @@ class TimerViewController: UIViewController {
         pauseOutlet.isEnabled = false
         pauseOutlet.borderColor = .gray
         pauseOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
+        pauseOutlet.setTitle("Pause", for: UIControlState.normal)
     }
 }
 

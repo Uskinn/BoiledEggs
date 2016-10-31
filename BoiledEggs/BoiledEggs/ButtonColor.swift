@@ -11,14 +11,7 @@ import MARoundButton
 
 class ButtonColor {
     
-    func pauseButton() {
-        
-        
-        
-        
-    }
     
-    
-    
+   
 }
  
