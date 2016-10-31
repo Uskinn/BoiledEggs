@@ -12,6 +12,7 @@ import LTMorphingLabel
 
 class TimerViewController: UIViewController {
     
+    @IBOutlet weak var resetOutlet: MARoundButton!
     @IBOutlet weak var pauseOutlet: MARoundButton!
     @IBOutlet weak var startOutlet: MARoundButton!
     @IBOutlet weak var timerLabel: UILabel!
@@ -20,6 +21,7 @@ class TimerViewController: UIViewController {
     
     var seconds: Int = 0
     var timer = Timer()
+    var setTitleStartButton: Bool = true
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,11 +40,18 @@ class TimerViewController: UIViewController {
     
     @IBAction func startButton(_ sender: AnyObject) {
         
-        startOutlet.isEnabled = false
-        startOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
+        //startOutlet.isEnabled = false
+        //startOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
         startOutlet.borderColor = .red
         
-       //startOutlet.setTitle("Reset", for: UIControlState.normal)
+        
+        if setTitleStartButton == true {
+            startOutlet.setTitle("Reset", for: UIControlState.normal)
+            setTitleStartButton = false
+        } else if setTitleStartButton == false {
+            startOutlet.setTitle("Start", for: UIControlState.normal)
+            setTitleStartButton = true
+        }
         
         pauseOutlet.isEnabled = true
         pauseOutlet.borderColor = .red
@@ -52,7 +61,7 @@ class TimerViewController: UIViewController {
     }
     
     @IBAction func pauseButton(_ sender: AnyObject) {
-
+        
         timer.invalidate()
         
         pauseOutlet.isEnabled = false
@@ -84,5 +93,6 @@ class TimerViewController: UIViewController {
         pauseOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
         pauseOutlet.setTitle("Pause", for: UIControlState.normal)
     }
+    
 }
 
