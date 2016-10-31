@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         dataProvider.model = model
         tableView.dataSource = dataProvider
         
-        // self.navigationController?.navigationBar.clipsToBounds = true
+        self.navigationController?.navigationBar.clipsToBounds = true
         self.navigationController?.navigationBar.barTintColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
     }
     
@@ -34,10 +34,5 @@ class ViewController: UIViewController {
         let cell = sender as! EggTableViewCell
         destinationVC.navigationItem.title = cell.eggLabel.text
         destinationVC.eggSize = cell.eggLabel.text!
-        
-       // print(destinationVC.eggSize)
-        
-       // print(cell.eggLabel.text)
-        
     }
 }

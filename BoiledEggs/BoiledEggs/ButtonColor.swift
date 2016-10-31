@@ -6,7 +6,19 @@
 //  Copyright © 2016 Sergey Nevzorov. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import MARoundButton
 
-
+class ButtonColor {
+    
+    func pauseButton() {
+        
+        
+        
+        
+    }
+    
+    
+    
+}
  
