@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         tableView.dataSource = dataProvider
         
        // self.navigationController?.navigationBar.clipsToBounds = true
-        self.navigationController?.navigationBar.barTintColor = UIColor(red:0.60, green:0.00, blue:0.20, alpha:1.0)
+        self.navigationController?.navigationBar.barTintColor = UIColor(red:0.99, green:0.30, blue:0.01, alpha:1.0)
         //UIColor(red:0.71, green:0.18, blue:0.19, alpha:1.0)
         //UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
     }
