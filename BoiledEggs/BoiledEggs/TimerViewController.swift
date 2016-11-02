@@ -40,18 +40,18 @@ class TimerViewController: UIViewController {
     
     @IBAction func startButton(_ sender: AnyObject) {
         
-        //startOutlet.isEnabled = false
-        //startOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
-        startOutlet.borderColor = .red
+        startOutlet.isEnabled = false
+        startOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
+        startOutlet.borderColor = .gray
         
         
-        if setTitleStartButton == true {
-            startOutlet.setTitle("Reset", for: UIControlState.normal)
-            setTitleStartButton = false
-        } else if setTitleStartButton == false {
-            startOutlet.setTitle("Start", for: UIControlState.normal)
-            setTitleStartButton = true
-        }
+//        if setTitleStartButton == true {
+//            startOutlet.setTitle("Reset", for: UIControlState.normal)
+//            setTitleStartButton = false
+//        } else if setTitleStartButton == false {
+//            startOutlet.setTitle("Start", for: UIControlState.normal)
+//            setTitleStartButton = true
+//        }
         
         pauseOutlet.isEnabled = true
         pauseOutlet.borderColor = .red
@@ -68,16 +68,18 @@ class TimerViewController: UIViewController {
         pauseButtonFirstLook()
         
         startOutlet.isEnabled = true
-        startOutlet.borderColor = .brown
+        startOutlet.borderColor = UIColor(red:0.00, green:0.50, blue:0.05, alpha:1.0)
         startOutlet.backgroundColor = .white
     }
     
     func configureBehindButtonLabel() {
-        behindButtonLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
+        behindButtonLabel.backgroundColor = UIColor(red:0.71, green:0.18, blue:0.19, alpha:1.0)
+            //UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
         behindButtonLabel.layer.cornerRadius = 53.5
         behindButtonLabel.clipsToBounds = true
         
-        viewLabel.backgroundColor = UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
+        viewLabel.backgroundColor = UIColor(red:0.71, green:0.18, blue:0.19, alpha:1.0)
+        //UIColor(red:1.00, green:0.84, blue:0.02, alpha:1.0)
     }
     
     func updateTimer() {
@@ -92,6 +94,8 @@ class TimerViewController: UIViewController {
         pauseOutlet.borderColor = .gray
         pauseOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
         pauseOutlet.setTitle("Pause", for: UIControlState.normal)
+        
+        startOutlet.borderColor = UIColor(red:0.00, green:0.50, blue:0.05, alpha:1.0)
     }
 }
 
