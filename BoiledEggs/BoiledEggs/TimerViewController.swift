@@ -98,7 +98,7 @@ class TimerViewController: UIViewController {
         pauseOutlet.backgroundColor = UIColor(red:0.99, green:0.62, blue:0.24, alpha:1.0)
         pauseOutlet.setTitle("Pause", for: UIControlState.normal)
         
-        startOutlet.borderColor = UIColor(red:1.00, green:0.70, blue:0.06, alpha:1.0)
+        startOutlet.borderColor = UIColor(red:0.32, green:0.69, blue:0.26, alpha:1.0)
     }
 }
 
