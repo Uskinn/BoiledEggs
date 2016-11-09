@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         tableView.dataSource = dataProvider
         
         // self.navigationController?.navigationBar.clipsToBounds = true
-        self.navigationController?.navigationBar.barTintColor = UIColor(red:0.99, green:0.30, blue:0.01, alpha:1.0)
+        self.navigationController?.navigationBar.barTintColor = UIColor(red:0.23, green:0.39, blue:0.05, alpha:1.0)
     }
     
     override func didReceiveMemoryWarning() {

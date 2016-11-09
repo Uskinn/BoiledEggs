@@ -73,11 +73,11 @@ class TimerViewController: UIViewController {
     }
     
     func configureBehindButtonLabel() {
-        behindButtonLabel.backgroundColor = UIColor(red:0.99, green:0.30, blue:0.01, alpha:1.0)
+        behindButtonLabel.backgroundColor = UIColor(red:0.23, green:0.39, blue:0.05, alpha:1.0)
         behindButtonLabel.layer.cornerRadius = 53.5
         behindButtonLabel.clipsToBounds = true
         
-        viewLabel.backgroundColor = UIColor(red:0.99, green:0.30, blue:0.01, alpha:1.0)
+        viewLabel.backgroundColor = UIColor(red:0.23, green:0.39, blue:0.05, alpha:1.0)
     }
     
     func updateTimer() {
