@@ -52,6 +52,7 @@ class TimerViewController: UIViewController {
 //            startOutlet.setTitle("Start", for: UIControlState.normal)
 //            setTitleStartButton = true
 //        }
+
         
         pauseOutlet.isEnabled = true
         pauseOutlet.borderColor = UIColor(red:1.00, green:0.70, blue:0.06, alpha:1.0)
